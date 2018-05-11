@@ -1,0 +1,51 @@
+/* comment in CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+p{
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+font:normal 0.75em/1.5em Georgia, "New Times Roman", serif;
+color: #777;
+text-align: right;
+}
+
+.milk-text{
+font: bold 2.6em 'Roboto', sans-serif;
+colof: white;
+text-shadow: 0 2px 3px #000;
+
+}
+
+#logo{ /* selects elements with id "logo"*/
+  background: aqua;
+}
+
+/*Descendent Selector */
+#logo h1{/* selects <h1> if inside the id= "logo" */
+  font-family: "Roboto", cursive;
+}
+#logo h2{/* selects <h1> if inside the id= "logo" */
+  font-family: "Roboto", bold;
+}
+
+/*Psuedo Selector*/
+/* select an element absed on its relationsship with other event states, elements */
+
+#details a:link #details a:visited{
+  color:black;
+  text-decoration none;
+}
+
+#details a:hover {
+  color:black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color:red;
+
+}
